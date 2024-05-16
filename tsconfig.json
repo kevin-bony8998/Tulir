@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Plant/Plant.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Plant/Plant.jsx", "*.mp4", "types/**/*.ts", "types/**/*.d.ts"],
   "exclude": ["node_modules"]
 }

@@ -121,7 +121,7 @@ export default function GeneralInfo() {
                                     Its never alright for someone to touch your private body parts except to keep you clean and healthy.
                                 </li>
                                 <li className="list-item">
-                                If this happens or if you feel confused, uncomfortable or unsafe about any touch say 'NO' and get away. Remember, IT'S NEVER YOUR FAULT.
+                                    If this happens or if you feel confused, uncomfortable or unsafe about any touch say 'NO' and get away. Remember, IT'S NEVER YOUR FAULT.
                                 </li>
                                 <li className="list-item">
                                     Never keep a secret about a touching problem. Tell a trusted adult and keep telling till you get the help you need. ...more

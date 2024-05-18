@@ -1,3 +1,5 @@
+"use client";
+
 import { StyledHeading } from "./Heading.styles";
 
 export default function Heading() {

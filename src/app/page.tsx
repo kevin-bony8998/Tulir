@@ -1,6 +1,7 @@
 "use client";
 
 import LandingPage from './components/organisms/LandingPage/LandingPage';
+import AboutPage from './components/organisms/AboutPage/AboutPage';
 
 export default function Home() {
 

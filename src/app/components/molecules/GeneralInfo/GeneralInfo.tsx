@@ -30,10 +30,10 @@ export default function GeneralInfo() {
     useEffect(() => {
         const tulirSite = document.getElementsByClassName('tulir-site')[0];
 
-        tulirSite.addEventListener('scroll', fillSVGPaths);
+        tulirSite?.addEventListener('scroll', fillSVGPaths);
 
         return () => {
-            tulirSite.removeEventListener('scroll', fillSVGPaths);
+            tulirSite?.removeEventListener('scroll', fillSVGPaths);
         };
     }, []);
 

@@ -1,7 +1,8 @@
 "use client";
 
 import LandingPage from './components/organisms/LandingPage/LandingPage';
-import AboutPage from './components/organisms/AboutPage/AboutPage';
+import {DetailsPage} from './components/organisms/DetailsPage/DetailsPage';
+import { AboutPageMock } from './mocks/AboutPage.mock';
 
 export default function Home() {
 
@@ -10,7 +11,7 @@ export default function Home() {
       <video className='videoTag' autoPlay loop muted>
         <source src={`assets/Dynamic_BG.mp4`} type='video/mp4' />
       </video>
-      <LandingPage />
+      <DetailsPage pageClassName={'about-page-class'} tabDetails={AboutPageMock}/>
     </main>
   );
 }

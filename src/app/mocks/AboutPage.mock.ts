@@ -2,6 +2,7 @@ export const AboutPageMock = [
     {
         tabName: 'Tulir-CPHCSA',
         tabId: 0,
+        tabIdentifier: 'tulir-cphcsa',
         tabContent: [
             "Tulir - Centre for the Prevention and Healing of Child Sexual Abuse (CPHCSA) is a registered, nongovernmental, non-profit organization committed to working against child sexual abuse in India.",
             "Contrary to a widely held perception, a society's integrity and worth is not based on whether cases of child sexual abuse exist. They do exist, sadly they exist in silence due to a host of factors headed by the discomfort it generates if acknowledged. Instead Tulir - Centre for the Prevention and Healing of Child Sexual Abuse believes a society's integrity is based on the acceptance of the problem and proactive steps taken to respond in a timely and appropriate way ensuring that its children may benefit from its caring and foresight, and truly have the right to feel safe all the time.",
@@ -12,6 +13,7 @@ export const AboutPageMock = [
     {
         tabName: 'Mission Statement	',
         tabId: 1,
+        tabIdentifier: 'mission-statement',
         tabContent: [
             "Preventing and healing child sexual abuse require equal parts of caring, optimism and pragmatism. We must care deeply for our children, be optimistic about human being's capabilities for change and be pragmatic how to work with children and the larger community to bring about positive transformation.",
             "Tulir-CPHCSA assumes that caring and optimism already reside within the majority of people and thus focuses on the pragmatic - how to translate the abstract notions of prevention and healing into a blueprint for action.",
@@ -23,6 +25,7 @@ export const AboutPageMock = [
     {
         tabName: 'Objectives',
         tabId: 2,
+        tabIdentifier: 'objectives',
         tabContent: [
             "To support and participate in local, national and international efforts to promote and protect the rights of the child.",
             "To raise awareness on child sexual abuse.",

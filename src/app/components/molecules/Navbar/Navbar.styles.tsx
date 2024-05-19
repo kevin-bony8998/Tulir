@@ -6,8 +6,13 @@ export const StyledNavbar = styled.div`
         width: 100%;
         justify-content: space-evenly;
         font-size: 22px;
-        margin-top: 30px;
+        padding-top: 30px;
         animation: slide-in 1s ease-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #284A44;
+        z-index: 1;
         .navbar-item {
             .navbar-heading {
                 padding: 0 10px;

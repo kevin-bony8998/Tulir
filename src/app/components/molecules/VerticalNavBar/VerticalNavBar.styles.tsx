@@ -4,7 +4,7 @@ export const StyledVerticalNavBar = styled.div`
     padding-top: 100px;
     margin-left: 100px;
     .navbar-container {
-        padding-right: 20px;
+        padding-right: 50px;
         border-right: 1px solid white;
         max-width: max-content;
         .vertical-navbar-item {

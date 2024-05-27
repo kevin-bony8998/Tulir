@@ -8,6 +8,7 @@ export const StyledHeading = styled.div`
     margin: auto;
     width: 100%;
     text-align: center;
+    animation: 3s infinite alternate slidein;
     .tulir-heading {
         color: white;
         font-size: 400px;

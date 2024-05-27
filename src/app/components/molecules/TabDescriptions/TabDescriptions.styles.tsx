@@ -1,3 +1,4 @@
+import { theme } from "@/app/theme";
 import styled from "styled-components";
 
 export const StyledPage = styled.div`
@@ -20,6 +21,7 @@ export const StyledPage = styled.div`
                 visibility: visible;
                 opacity: 1;
                 height: max-content;
+                animation: ${theme?.slideInAnimation};
             }
         }
     }

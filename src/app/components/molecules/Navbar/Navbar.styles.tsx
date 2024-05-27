@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "@/app/theme";
 
 export const StyledNavbar = styled.div`
     .navbar {
@@ -11,7 +12,7 @@ export const StyledNavbar = styled.div`
         position: absolute;
         top: 0;
         left: 0;
-        background: #284A44;
+        background: ${theme?.colors?.navBarColor};
         z-index: 1;
         .navbar-item {
             .navbar-heading {

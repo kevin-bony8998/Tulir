@@ -1,10 +1,21 @@
-import RootLayout from "@/app/layout";
+"use client";
+
+import "../src/app/globals.css";
+import Navbar from "@/app/components/molecules/Navbar/Navbar";
+import { StyledNavbar } from "@/app/components/molecules/Navbar/Navbar.styles";
 
 function MyApp({ Component, pageProps }: any) {
     return (
-        <RootLayout>
+        <main className="flex p-0 m-0 tulir-site h-full w-full">
+            <StyledNavbar>
+                <Navbar />
+            </StyledNavbar>
+            <video className='videoTag' autoPlay loop muted>
+                <source src={`assets/Dynamic_BG.mp4`} type='video/mp4' />
+            </video>
             <Component {...pageProps} />
-        </RootLayout>
+            {/* <DownloadsPage pageClassName={'about-page-class'} tabDetails={AboutPageMock}/> */}
+        </main>
     );
 }
 

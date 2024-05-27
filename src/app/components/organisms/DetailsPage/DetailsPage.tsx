@@ -1,4 +1,4 @@
-import { StyledPage } from "./DetailsPage.styles";
+import { StyledDetailsPage } from "./DetailsPage.styles";
 import Navbar from "../../molecules/Navbar/Navbar";
 import { DetailsPageProps } from "./DetailsPage.types";
 import { VerticalNavBar } from "../../molecules/VerticalNavBar/VerticalNavBar";
@@ -12,12 +12,11 @@ export const DetailsPage:React.FC<DetailsPageProps> = ({pageClassName, tabDetail
   });
 
   return (
-    <StyledPage>
-        <Navbar />
+    <StyledDetailsPage>
         <div className={`${pageClassName} page-content`}>
           <VerticalNavBar tabNames={tabNames} />
           <TabDescriptions tabDetails={tabDetails} />
         </div>
-    </StyledPage>
+    </StyledDetailsPage>
   );
 }

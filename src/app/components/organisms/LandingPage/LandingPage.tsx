@@ -6,7 +6,6 @@ import Navbar from "../../molecules/Navbar/Navbar";
 export default function LandingPage() {
   return (
     <StyledPage>
-        <Navbar />
         <Heading />
         <GeneralInfo />
     </StyledPage>

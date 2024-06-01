@@ -11,6 +11,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "What is Child Sexual Abuse?",
@@ -22,6 +23,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -34,6 +36,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Types of Child Sexual Abuse",
@@ -45,6 +48,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -57,6 +61,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Touching behaviors include",
@@ -68,6 +73,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Fondling a child's body for sexual pleasure",
@@ -79,6 +85,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Kissing a child with sexual undertones/inclinations.",
@@ -90,6 +97,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Rubbing genitals against a child's body.",
@@ -101,6 +109,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -113,6 +122,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -125,6 +135,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -137,6 +148,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -149,6 +161,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Non-touching behaviors include",
@@ -160,6 +173,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -172,6 +186,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Looking at a child sexually",
@@ -183,6 +198,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -195,6 +211,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -207,6 +224,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -219,6 +237,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -238,6 +257,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -250,6 +270,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -262,6 +283,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -274,6 +296,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Though most abusers are men, women can also be abusers.",
@@ -285,6 +308,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -297,6 +321,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Education, or the lack of it, does not define an abuser.",
@@ -308,6 +333,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -320,6 +346,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Abuser can be married and have children of their own.",
@@ -331,6 +358,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -343,6 +371,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -355,6 +384,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Picking someone who can be safely victimized.",
@@ -366,6 +396,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -378,6 +409,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -397,6 +429,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -409,6 +442,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -421,6 +455,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -433,6 +468,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -445,6 +481,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -457,6 +494,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -469,6 +507,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -481,6 +520,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -501,6 +541,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -513,6 +554,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: true,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -525,6 +567,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -537,6 +580,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: true,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -549,6 +593,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: true,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -561,6 +606,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -573,6 +619,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -585,6 +632,7 @@ export const ChildSexualAbuseMock = [
         isRichText: true,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "<b>Here's what the predators are up to.</b>",
@@ -596,6 +644,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -608,6 +657,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -620,6 +670,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -632,6 +683,7 @@ export const ChildSexualAbuseMock = [
         isRichText: true,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -644,6 +696,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -656,6 +709,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -668,6 +722,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -680,6 +735,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -692,6 +748,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: true,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -704,6 +761,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: true,
         textContent:
           "Referred from The Zero – The Official Website of Andrew Vachss. 20 September 2010.",
@@ -723,6 +781,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -735,6 +794,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Physical Indicators",
@@ -746,6 +806,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Difficulty in walking or sitting",
@@ -757,6 +818,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Anxiety related illnesses, such as anorexia or bulimia",
@@ -768,6 +830,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Discomfort in urinating or defecating",
@@ -779,6 +842,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Recurrent urinary infections",
@@ -790,6 +854,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -802,6 +867,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -814,6 +880,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Sexually transmitted disease in a child of any age",
@@ -825,6 +892,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Unexplained pregnancy",
@@ -836,6 +904,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Behavioural Indicators",
@@ -847,6 +916,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -859,6 +929,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -871,6 +942,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -883,6 +955,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -895,6 +968,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Tendency to cling or need constant reassurance",
@@ -906,6 +980,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Sudden accumulation of money or gifts",
@@ -917,6 +992,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -929,6 +1005,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Fatigue and sleeping difficulties",
@@ -940,6 +1017,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Poor self-care/personal hygiene",
@@ -951,6 +1029,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Depression",
@@ -962,6 +1041,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -974,6 +1054,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -986,6 +1067,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -998,6 +1080,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -1010,6 +1093,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -1022,6 +1106,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -1034,6 +1119,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Age inappropriate sexual behavior.",
@@ -1045,6 +1131,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Child running away from home/school.",
@@ -1056,6 +1143,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -1068,6 +1156,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Effects of Child Sexual Abuse",
@@ -1079,6 +1168,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -1091,6 +1181,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Distrust of others and themselves.",
@@ -1102,6 +1193,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Terror and anxiety.",
@@ -1113,6 +1205,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Shame, guilt, and self-hatred.",
@@ -1124,6 +1217,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Alienatation from their bodies.",
@@ -1135,6 +1229,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Isolation and withdrawal from people and activities.",
@@ -1146,6 +1241,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Powerlessness, depression, and extreme passivity.",
@@ -1157,6 +1253,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Anger.",
@@ -1168,6 +1265,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Obsession with sex or complete aversion to it.",
@@ -1179,6 +1277,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Questioning their sexuality and gender.",
@@ -1190,6 +1289,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Drug and alcohol use, abuse and addiction.",
@@ -1201,6 +1301,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Eating disorders.",
@@ -1212,6 +1313,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Perfectionism and workaholism.",
@@ -1223,6 +1325,7 @@ export const ChildSexualAbuseMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "Mental illness and suicide.",

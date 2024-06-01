@@ -11,6 +11,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -23,6 +24,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -35,6 +37,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -47,6 +50,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -66,6 +70,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -78,6 +83,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -90,6 +96,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -102,6 +109,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -114,6 +122,7 @@ export const AboutPageMock = [
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
@@ -127,59 +136,64 @@ export const AboutPageMock = [
     tabIdentifier: "objectives",
     tabContent: [
       {
-        isBulletList: false,
+        isBulletList: true,
         isSubHeading: false,
-        isParaText: true,
+        isParaText: false,
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
           "To support and participate in local, national and international efforts to promote and protect the rights of the child.",
       },
       {
-        isBulletList: false,
+        isBulletList: true,
         isSubHeading: false,
-        isParaText: true,
+        isParaText: false,
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent: "To raise awareness on child sexual abuse.",
       },
       {
-        isBulletList: false,
+        isBulletList: true,
         isSubHeading: false,
-        isParaText: true,
+        isParaText: false,
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
           "To work towards improving policy and advancing practice to prevent and address cases of child sexual abuse with a special emphasis on the psychosocial well being of children.",
       },
       {
-        isBulletList: false,
+        isBulletList: true,
         isSubHeading: false,
-        isParaText: true,
+        isParaText: false,
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:
           "To provide direct intervention services in the areas of prevention and healing of child sexual abuse.",
       },
       {
-        isBulletList: false,
+        isBulletList: true,
         isSubHeading: false,
-        isParaText: true,
+        isParaText: false,
         isRichText: false,
         isQuote: false,
         titleIdentifier: "",
+        isExternalLink: false,
         isLink: false,
         linkLocation: "",
         textContent:

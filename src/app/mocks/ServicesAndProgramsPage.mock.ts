@@ -1,19 +1,19 @@
-export const ChildSexualAbuseMock = [
+export const ServicesAndProgramsPageMock = [
   {
-    tabName: "Child Sexual Abuse",
+    tabName: "Services & Programs",
     tabId: 0,
-    tabIdentifier: "child-sexual-abuse",
+    tabIdentifier: "services-and-programs",
     tabContent: [
       {
         isBulletList: false,
-        isSubHeading: true,
+        isSubHeading: false,
         isParaText: false,
         isRichText: false,
         isQuote: false,
-        titleIdentifier: "",
-        isLink: false,
-        linkLocation: "",
-        textContent: "What is Child Sexual Abuse?",
+        titleIdentifier: "personal-safety-education",
+        isLink: true,
+        linkLocation: "/servicesAndPrograms#",
+        textContent: "Personal Safety Education",
       },
       {
         isBulletList: false,

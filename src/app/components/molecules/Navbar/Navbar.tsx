@@ -41,7 +41,9 @@ export default function Heading() {
           </div>
         </div>
         <div className="navbar-item">
-          <p className="navbar-heading">Services & Programs</p>
+          <Link className="navbar-heading" href="/servicesAndPrograms">
+            Services & Programs
+          </Link>
           <div className="sub-item-container">
             <div className="navbar-subitem">Services & Programs</div>
             <div className="navbar-subitem">Personal Safety Education</div>
@@ -54,7 +56,9 @@ export default function Heading() {
           <p className="navbar-heading">FAQ's</p>
         </div>
         <div className="navbar-item">
-          <p className="navbar-heading">Downloads</p>
+          <Link className="navbar-heading" href="downloads">
+            Downloads
+          </Link>
         </div>
         <div className="navbar-item">
           <p className="navbar-heading">Links</p>

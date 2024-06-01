@@ -1,13 +1,16 @@
 "use client";
 
-import LandingPage from './components/organisms/LandingPage/LandingPage';
-import { DetailsPage } from './components/organisms/DetailsPage/DetailsPage';
-import { DownloadsPage } from './components/organisms/DownloadsPage/DownloadsPage';
-import { AboutPageMock } from './mocks/AboutPage.mock';
+import LandingPage from "./components/organisms/LandingPage/LandingPage";
+import Navbar from "./components/molecules/Navbar/Navbar";
 
 export default function Home() {
-
   return (
-    <div>Hello </div>
+    <main className="flex p-0 m-0 tulir-site h-full w-full">
+      <Navbar />
+      <video className="videoTag" autoPlay loop muted>
+        <source src={`assets/Incense_BG_Desktop.mp4`} type="video/mp4" />
+      </video>
+      <LandingPage />
+    </main>
   );
 }

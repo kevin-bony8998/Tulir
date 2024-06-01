@@ -1,83 +1,68 @@
 import { StyledNavbar } from "./Navbar.styles";
+import Link from "next/link";
 
 export default function Heading() {
   return (
     <StyledNavbar>
-        <div className="navbar">
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    About Us
-                </p>
-                <div className="sub-item-container">
-                    <div className="navbar-subitem">
-                        Tulir - CPHCSA
-                    </div>
-                    <div className="navbar-subitem">
-                        Mission Statement
-                    </div>
-                    <div className="navbar-subitem">
-                        Objectives
-                    </div>
-                </div>
-            </div>
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    Child Sexual Abuse
-                </p>
-                <div className="sub-item-container">
-                    <div className="navbar-subitem">
-                        Child Sexual Abuse
-                    </div>
-                    <div className="navbar-subitem">
-                        Abusers
-                    </div>
-                    <div className="navbar-subitem">
-                        Groomers
-                    </div>
-                    <div className="navbar-subitem">
-                        Indicators and Effects
-                    </div>
-                </div>
-            </div>
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    Services & Programs
-                </p>
-                <div className="sub-item-container">
-                    <div className="navbar-subitem">
-                        Services & Programs
-                    </div>
-                    <div className="navbar-subitem">
-                        Personal Safety Education
-                    </div>
-                </div>
-            </div>
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    Resources
-                </p>
-            </div>
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    FAQ's
-                </p>
-            </div>
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    Downloads
-                </p>
-            </div>
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    Links
-                </p>
-            </div>
-            <div className="navbar-item">
-                <p className="navbar-heading">
-                    Contact Us
-                </p>
-            </div>
+      <div className="navbar">
+        <div className="navbar-item">
+          <Link className="navbar-heading" href="/about">
+            About Us
+          </Link>
+          <div className="sub-item-container">
+            <Link className="navbar-subitem" href="/about#tulir-cphcsa">
+              Tulir - CPHCSA
+            </Link>
+            <Link className="navbar-subitem" href="/about#mission-statement">
+              Mission Statement
+            </Link>
+            <Link className="navbar-subitem" href="/about#objectives">
+              Objectives
+            </Link>
+          </div>
         </div>
+        <div className="navbar-item">
+          <Link className="navbar-heading" href="/childSexualAbuse">
+            Child Sexual Abuse
+          </Link>
+          <div className="sub-item-container">
+            <Link className="navbar-subitem" href="">
+              Child Sexual Abuse
+            </Link>
+            <Link className="navbar-subitem" href="">
+              Abusers
+            </Link>
+            <Link className="navbar-subitem" href="">
+              Groomers
+            </Link>
+            <Link className="navbar-subitem" href="">
+              Indicators and Effects
+            </Link>
+          </div>
+        </div>
+        <div className="navbar-item">
+          <p className="navbar-heading">Services & Programs</p>
+          <div className="sub-item-container">
+            <div className="navbar-subitem">Services & Programs</div>
+            <div className="navbar-subitem">Personal Safety Education</div>
+          </div>
+        </div>
+        <div className="navbar-item">
+          <p className="navbar-heading">Resources</p>
+        </div>
+        <div className="navbar-item">
+          <p className="navbar-heading">FAQ's</p>
+        </div>
+        <div className="navbar-item">
+          <p className="navbar-heading">Downloads</p>
+        </div>
+        <div className="navbar-item">
+          <p className="navbar-heading">Links</p>
+        </div>
+        <div className="navbar-item">
+          <p className="navbar-heading">Contact Us</p>
+        </div>
+      </div>
     </StyledNavbar>
   );
 }

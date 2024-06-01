@@ -5,7 +5,7 @@ export const AboutPageMock = [
         tabIdentifier: 'tulir-cphcsa',
         tabContent: [
             { 
-                hasBulletList: false, 
+            hasBulletList: false, 
                 isSubHeading: false, 
                 paraText: "Tulir - Centre for the Prevention and Healing of Child Sexual Abuse (CPHCSA) is a registered, nongovernmental, non-profit organization committed to working against child sexual abuse in India." },
             { hasBulletList: false, isSubHeading: false, paraText: "Contrary to a widely held perception, a society's integrity and worth is not based on whether cases of child sexual abuse exist. They do exist, sadly they exist in silence due to a host of factors headed by the discomfort it generates if acknowledged. Instead Tulir - Centre for the Prevention and Healing of Child Sexual Abuse believes a society's integrity is based on the acceptance of the problem and proactive steps taken to respond in a timely and appropriate way ensuring that its children may benefit from its caring and foresight, and truly have the right to feel safe all the time." },

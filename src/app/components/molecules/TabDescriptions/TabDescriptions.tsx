@@ -3,6 +3,7 @@ import { TabDescriptionsProps } from "./TabDescriptions.types";
 import { useVerticalTabStore } from "../../../../../store/verticalTabStore";
 import { useEffect } from "react";
 import parse from "html-react-parser";
+import Image from "next/image";
 
 export const TabDescriptions: React.FC<TabDescriptionsProps> = ({
   tabDetails,
@@ -54,23 +55,32 @@ export const TabDescriptions: React.FC<TabDescriptionsProps> = ({
                       </p>
                     )}
                     {descriptionContent?.isBulletList && (
-                      <p className="description-bullet-point" key={idx}>
-                        {descriptionContent?.textContent}
-                      </p>
+                      <div className="description-bullet-point" key={idx}>
+                        <Image
+                          src="./assets/leaf_bullet_point.svg"
+                          alt="bullet point"
+                          className="bullet-image"
+                          height={20}
+                          width={20}
+                        />
+                        <p className="description-bullet-point-text" key={idx}>
+                          {descriptionContent?.textContent}
+                        </p>
+                      </div>
                     )}
                     {descriptionContent?.isRichText && (
-                      <p className="description-bullet-point" key={idx}>
+                      <p className="description-rich-text" key={idx}>
                         {parse(descriptionContent?.textContent)}
                       </p>
                     )}
                     {descriptionContent?.isQuote && (
-                      <p className="description-centralised-content" key={idx}>
+                      <p className="description-quote-content" key={idx}>
                         {descriptionContent?.textContent}
                       </p>
                     )}
                     {descriptionContent?.isLink && (
                       <a
-                        className="description-centralised-content-link"
+                        className="description-content-link"
                         key={idx}
                         href={descriptionContent?.linkLocation}
                         target="_blank"

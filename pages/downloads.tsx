@@ -2,10 +2,10 @@
 
 import { DownloadsPage } from "@/app/components/organisms/DownloadsPage/DownloadsPage";
 
-export default function LandingPage() {
+export default function Downloads() {
   return (
     <>
-      <DownloadsPage pageClassName={'downloads-page-class'}/>
+      <DownloadsPage pageClassName={"downloads-page-class"} />
     </>
   );
 }

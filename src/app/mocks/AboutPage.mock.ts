@@ -4,7 +4,10 @@ export const AboutPageMock = [
         tabId: 0,
         tabIdentifier: 'tulir-cphcsa',
         tabContent: [
-            { hasBulletList: false, isSubHeading: false, paraText: "Tulir - Centre for the Prevention and Healing of Child Sexual Abuse (CPHCSA) is a registered, nongovernmental, non-profit organization committed to working against child sexual abuse in India." },
+            { 
+                hasBulletList: false, 
+                isSubHeading: false, 
+                paraText: "Tulir - Centre for the Prevention and Healing of Child Sexual Abuse (CPHCSA) is a registered, nongovernmental, non-profit organization committed to working against child sexual abuse in India." },
             { hasBulletList: false, isSubHeading: false, paraText: "Contrary to a widely held perception, a society's integrity and worth is not based on whether cases of child sexual abuse exist. They do exist, sadly they exist in silence due to a host of factors headed by the discomfort it generates if acknowledged. Instead Tulir - Centre for the Prevention and Healing of Child Sexual Abuse believes a society's integrity is based on the acceptance of the problem and proactive steps taken to respond in a timely and appropriate way ensuring that its children may benefit from its caring and foresight, and truly have the right to feel safe all the time." },
             { hasBulletList: false, isSubHeading: false, paraText: "While in India we are just beginning to acknowledge the existence of CSA, Tulir-CPHCSA has the audacity of hope that it will not be before long that the larger community realizes the prevalence, with the subsequent significant impact (and accompanying physical, social and health costs) for it to be considered a serious public health concern which needs to prevented and addressed." },
             { hasBulletList: false, isSubHeading: false, paraText: "It is a long journey, from just this acknowledgment to the actual empowering of the child and the adult stakeholders, and this website serves as just one more platform to break the silence around the issue. We hope that besides being a source of information it will link and network with individuals and organizations interested in creating a world where every child enjoys the right to feel safe all the time." }

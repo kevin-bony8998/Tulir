@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex p-0 m-0 tulir-site h-full w-full">
       <Navbar />
       <video className="videoTag" autoPlay loop muted>
-        <source src={`assets/Dynamic_BG.mp4`} type="video/mp4" />
+        <source src={`assets/Incense_BG_Desktop.mp4`} type="video/mp4" />
       </video>
       <LandingPage />
     </main>

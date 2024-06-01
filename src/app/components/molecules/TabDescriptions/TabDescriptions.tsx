@@ -2,6 +2,7 @@ import { StyledPage } from "./TabDescriptions.styles";
 import { TabDescriptionsProps } from "./TabDescriptions.types";
 import { useVerticalTabStore } from "../../../../../store/verticalTabStore";
 import { useEffect } from "react";
+import parse from "html-react-parser";
 
 export const TabDescriptions: React.FC<TabDescriptionsProps> = ({
   tabDetails,
@@ -40,10 +41,44 @@ export const TabDescriptions: React.FC<TabDescriptionsProps> = ({
             <div className="tab-heading">{element.tabName}</div>
             <div className="tab-content">
               {element?.tabContent?.map(
-                (descriptionPara: string, idx: number) => (
-                  <p className="description-para" key={idx}>
-                    {descriptionPara}
-                  </p>
+                (descriptionContent: any, idx: number) => (
+                  <>
+                    {descriptionContent?.isParaText && (
+                      <p className="description-para" key={idx}>
+                        {descriptionContent?.textContent}
+                      </p>
+                    )}
+                    {descriptionContent?.isSubHeading && (
+                      <p className="description-sub-heading" key={idx}>
+                        {descriptionContent?.textContent}
+                      </p>
+                    )}
+                    {descriptionContent?.isBulletList && (
+                      <p className="description-bullet-point" key={idx}>
+                        {descriptionContent?.textContent}
+                      </p>
+                    )}
+                    {descriptionContent?.isRichText && (
+                      <p className="description-bullet-point" key={idx}>
+                        {parse(descriptionContent?.textContent)}
+                      </p>
+                    )}
+                    {descriptionContent?.isQuote && (
+                      <p className="description-centralised-content" key={idx}>
+                        {descriptionContent?.textContent}
+                      </p>
+                    )}
+                    {descriptionContent?.isLink && (
+                      <a
+                        className="description-centralised-content-link"
+                        key={idx}
+                        href={descriptionContent?.linkLocation}
+                        target="_blank"
+                      >
+                        {descriptionContent?.textContent}
+                      </a>
+                    )}
+                  </>
                 ),
               )}
             </div>

@@ -17,6 +17,7 @@ export const StyledNavbar = styled.div`
     .navbar-item {
       .navbar-heading {
         padding: 0 10px;
+        cursor: pointer;
       }
       cursor: pointer;
       border: 2px solid transparent;
@@ -43,6 +44,7 @@ export const StyledNavbar = styled.div`
         .navbar-heading {
           background-color: #4f6f52;
           border-radius: 5px;
+          cursor: pointer;
         }
         .sub-item-container {
           width: max-content;

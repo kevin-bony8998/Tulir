@@ -18,22 +18,51 @@ export const StyledPage = styled.div`
       .tab-content {
         font-size: 20px;
         color: #fffdd0;
-        .description-para {
-          /* background-image: linear-gradient(to left, #008080, #FFFDD0); */
+        .description-rich-text {
           background-clip: text;
           -webkit-background-clip: text;
           margin-bottom: 20px;
+        }
+        .description-para {
+          background-clip: text;
+          -webkit-background-clip: text;
+          margin-bottom: 20px;
+          .animated-svg {
+            color: white;
+            svg {
+              color: white;
+              line {
+                stroke: white !important;
+              }
+            }
+          }
+          .description-para-content {
+            display: inline;
+          }
+          .link-icon {
+            display: inline;
+            margin-left: 4px;
+          }
         }
         .description-sub-heading {
           margin: 16px 0;
           font-size: 24px;
           color: white;
+          scroll-margin-top: 100px;
         }
         .description-bullet-point {
           display: flex;
           align-items: flex-start;
           .bullet-image {
             margin-right: 10px;
+            margin-top: 4px;
+          }
+        }
+        .description-content-link {
+          display: flex;
+          align-items: flex-start;
+          .link-icon {
+            margin-left: 10px;
             margin-top: 4px;
           }
         }

@@ -20,7 +20,7 @@ export const StyledVerticalNavBar = styled.div`
         border: 1px solid white;
         border-radius: 0 15px 15px 0;
         background: white;
-        color: transparent;
+        color: black;
       }
     }
   }

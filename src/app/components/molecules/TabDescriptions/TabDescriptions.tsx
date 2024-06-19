@@ -4,6 +4,7 @@ import { useVerticalTabStore } from "../../../../../store/verticalTabStore";
 import { useEffect } from "react";
 import parse from "html-react-parser";
 import Image from "next/image";
+import { readMoreText } from "../../constants";
 
 export const TabDescriptions: React.FC<TabDescriptionsProps> = ({
   tabDetails,
@@ -42,54 +43,105 @@ export const TabDescriptions: React.FC<TabDescriptionsProps> = ({
             <div className="tab-heading">{element.tabName}</div>
             <div className="tab-content">
               {element?.tabContent?.map(
-                (descriptionContent: any, idx: number) => (
-                  <>
-                    {descriptionContent?.isParaText && (
-                      <p className="description-para" key={idx}>
-                        {descriptionContent?.textContent}
-                      </p>
-                    )}
-                    {descriptionContent?.isSubHeading && (
-                      <p className="description-sub-heading" key={idx}>
-                        {descriptionContent?.textContent}
-                      </p>
-                    )}
-                    {descriptionContent?.isBulletList && (
-                      <div className="description-bullet-point" key={idx}>
-                        <Image
-                          src="./assets/leaf_bullet_point.svg"
-                          alt="bullet point"
-                          className="bullet-image"
-                          height={20}
-                          width={20}
-                        />
-                        <p className="description-bullet-point-text" key={idx}>
+                (descriptionContent: any, idx: number) => {
+                  let itemProps = {};
+                  if (descriptionContent?.isExternalLink) {
+                    itemProps = { target: "_blank" };
+                  }
+                  return (
+                    <>
+                      {descriptionContent?.isParaText && (
+                        <div className="description-para">
+                          <p className="description-para-content" key={idx}>
+                            {descriptionContent?.textContent}
+                          </p>
+                          {descriptionContent?.hasMoreInfo && (
+                            <a
+                              href={descriptionContent?.hasMoreInfoLink}
+                              className="read-more-link"
+                            >
+                              {readMoreText}
+                              <Image
+                                src="./assets/link_svg.svg"
+                                height={20}
+                                width={20}
+                                alt="link image"
+                                className="link-icon"
+                              />
+                            </a>
+                          )}
+                        </div>
+                      )}
+                      {descriptionContent?.isSubHeading && (
+                        <p
+                          className="description-sub-heading"
+                          key={idx}
+                          id={descriptionContent?.titleIdentifier}
+                        >
                           {descriptionContent?.textContent}
                         </p>
-                      </div>
-                    )}
-                    {descriptionContent?.isRichText && (
-                      <p className="description-rich-text" key={idx}>
-                        {parse(descriptionContent?.textContent)}
-                      </p>
-                    )}
-                    {descriptionContent?.isQuote && (
-                      <p className="description-quote-content" key={idx}>
-                        {descriptionContent?.textContent}
-                      </p>
-                    )}
-                    {descriptionContent?.isLink && (
-                      <a
-                        className="description-content-link"
-                        key={idx}
-                        href={descriptionContent?.linkLocation}
-                        target="_blank"
-                      >
-                        {descriptionContent?.textContent}
-                      </a>
-                    )}
-                  </>
-                ),
+                      )}
+                      {descriptionContent?.isBulletList && (
+                        <div className="description-bullet-point" key={idx}>
+                          <Image
+                            src="./assets/leaf_bullet_point.svg"
+                            alt="bullet point"
+                            className="bullet-image"
+                            height={20}
+                            width={20}
+                          />
+                          <p
+                            className="description-bullet-point-text"
+                            key={idx}
+                          >
+                            {descriptionContent?.textContent}
+                          </p>
+                        </div>
+                      )}
+                      {descriptionContent?.isRichText && (
+                        <p className="description-rich-text" key={idx}>
+                          {parse(descriptionContent?.textContent)}
+                        </p>
+                      )}
+                      {descriptionContent?.isQuote && (
+                        <p className="description-quote-content" key={idx}>
+                          {descriptionContent?.textContent}
+                        </p>
+                      )}
+                      {descriptionContent?.isLink && (
+                        <div className="description-content-link">
+                          <a
+                            className="description-content-link"
+                            key={idx}
+                            href={descriptionContent?.linkLocation}
+                            {...itemProps}
+                          >
+                            {descriptionContent?.textContent}
+                          </a>
+                          <Image
+                            src="./assets/link_svg.svg"
+                            height={20}
+                            width={20}
+                            alt="link image"
+                            className="link-icon"
+                          />
+                        </div>
+                      )}
+                      {descriptionContent?.svgLink &&
+                        descriptionContent?.svgLink !== "" && (
+                          <div className="description-svg-link">
+                            <object
+                              type="image/svg+xml"
+                              data={descriptionContent?.svgLink}
+                              className="animated-svg"
+                            >
+                              svg-animation
+                            </object>
+                          </div>
+                        )}
+                    </>
+                  );
+                },
               )}
             </div>
           </div>

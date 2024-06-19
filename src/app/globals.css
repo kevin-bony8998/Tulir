@@ -47,3 +47,7 @@
 .tulir-site::-webkit-scrollbar {
   display: none;
 }
+
+.read-more-link {
+  margin-left: 8px;
+}

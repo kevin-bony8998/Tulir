@@ -139,6 +139,59 @@ export const TabDescriptions: React.FC<TabDescriptionsProps> = ({
                             </object>
                           </div>
                         )}
+                      {descriptionContent?.isThumbnail && (
+                        <div className="full-thumbnail-container">
+                          <div
+                            className="thumbnail-heading"
+                            id={descriptionContent?.titleIdentifier}
+                          >
+                            {descriptionContent?.thumbnailHeading}
+                          </div>
+
+                          <div className="description-thumbnail-container">
+                            <Image
+                              src={descriptionContent?.imageSrc}
+                              height={descriptionContent?.imageHeight}
+                              width={descriptionContent?.imageWidth}
+                              alt="link image"
+                              className="link-icon"
+                            />
+                            <div className="text-content">
+                              {descriptionContent?.thumbnailtextContent?.map(
+                                (content: any, idx: number) => (
+                                  <div
+                                    className="thumbnail-text-container"
+                                    key={idx}
+                                  >
+                                    {content?.textType === "Para" && (
+                                      <div className="thumbnail-para">
+                                        <p className="thumbnail-para-text-content">
+                                          {content?.textContent}
+                                        </p>
+                                        {content.hasMoreInfo && (
+                                          <a
+                                            href={content.hasMoreInfoLink}
+                                            className="read-more-link"
+                                          >
+                                            {readMoreText}
+                                            <Image
+                                              src="./assets/link_svg.svg"
+                                              height={20}
+                                              width={20}
+                                              alt="link image"
+                                              className="link-icon"
+                                            />
+                                          </a>
+                                        )}
+                                      </div>
+                                    )}
+                                  </div>
+                                ),
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      )}
                     </>
                   );
                 },

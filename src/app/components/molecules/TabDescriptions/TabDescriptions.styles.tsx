@@ -66,6 +66,33 @@ export const StyledPage = styled.div`
             margin-top: 4px;
           }
         }
+        .full-thumbnail-container {
+          margin-top: 28px;
+          .thumbnail-heading {
+            font-size: 24px;
+            scroll-margin-top: 100px;
+          }
+          .description-thumbnail-container {
+            display: flex;
+            margin-top: 12px;
+            padding: 0 20px;
+            .thumbnail-text-container {
+              margin-left: 24px;
+              .thumbnail-para {
+                .thumbnail-para-text-content {
+                  display: inline;
+                }
+                .read-more-link {
+                  display: inline-flex;
+                  .link-icon {
+                    margin-left: 10px;
+                    margin-top: 4px;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
       &.active-tab-description {
         visibility: visible;

@@ -50,7 +50,9 @@ export default function Heading() {
           </div>
         </div>
         <div className="navbar-item">
-          <p className="navbar-heading">Resources</p>
+          <Link className="navbar-heading" href="resources">
+            Resources
+          </Link>
         </div>
         <div className="navbar-item">
           <p className="navbar-heading">FAQ's</p>

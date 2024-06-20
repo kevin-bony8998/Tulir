@@ -4,14 +4,11 @@ import { StyledResourcesPage } from "@/app/components/organisms/ResourcesPage/Re
 import { ResourcesPageMock } from "@/app/mocks/ResourcesPage.mock";
 import { ResourcesPage } from "@/app/components/organisms/ResourcesPage/ResourcesPage";
 
-export default function ServicesAndPrograms() {
+export default function Resources() {
   return (
     <>
       <StyledResourcesPage>
-        <ResourcesPage
-          pageClassName={"resources-page-class"}
-          tabDetails={ResourcesPageMock}
-        />
+        <ResourcesPage pageClassName={"resources-page-class"} />
       </StyledResourcesPage>
     </>
   );

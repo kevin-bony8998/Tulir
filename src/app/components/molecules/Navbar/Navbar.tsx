@@ -29,7 +29,7 @@ export default function Heading() {
             <Link className="navbar-subitem" href="">
               Child Sexual Abuse
             </Link>
-            <Link className="navbar-subitem" href="">
+            <Link className="navbar-subitem" href="childSexualAbuse#abusers">
               Abusers
             </Link>
             <Link className="navbar-subitem" href="">
@@ -55,7 +55,9 @@ export default function Heading() {
           </Link>
         </div>
         <div className="navbar-item">
-          <p className="navbar-heading">FAQ's</p>
+          <Link className="navbar-heading" href="faq">
+            FAQ's
+          </Link>
         </div>
         <div className="navbar-item">
           <Link className="navbar-heading" href="downloads">
